@@ -1,42 +1,25 @@
-package com.sd.com.sd;
+package com.sd.pages;
 
-import com.sd.enums.WaitStrategy;
-import com.sd.constants.FrameworkConstants;
 import com.sd.driver.DriverManager;
+import com.sd.enums.WaitStrategy;
+import com.sd.factory.ExplicitWaitFactory;
+import com.sd.reports.ExtentLogger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 public class BasePage {
-    protected void click(By by, WaitStrategy waitstrategy){
-        if (waitstrategy == WaitStrategy.CLICKABLE){
-            explicitlyWaitForElementToBeClickable(by);
-        }else if(waitstrategy == WaitStrategy.PRESENCE){
-            explicitlyWaitForElementToBePresent(by);
-        }
+    protected void click(By by, WaitStrategy waitstrategy,String elementname)  {
+        ExplicitWaitFactory.performExpicitWait(waitstrategy, by).click();
+        ExtentLogger.pass(elementname +" is clicked",true);
 
-        DriverManager.getDriver().findElement(by).click();
     }
-    protected void sendkeys(By by, String value,WaitStrategy waitstrategy){
-        if (waitstrategy == WaitStrategy.CLICKABLE){
-            explicitlyWaitForElementToBeClickable(by);
-        }else if(waitstrategy == WaitStrategy.PRESENCE){
-            explicitlyWaitForElementToBePresent(by);
-        }
-        DriverManager.getDriver().findElement(by).sendKeys(value);
+
+    protected void sendkeys(By by, String value, WaitStrategy waitstrategy, String elementname)  {
+        ExplicitWaitFactory.performExpicitWait(waitstrategy, by).sendKeys(value);
+        ExtentLogger.pass('"'+value+'"' +" is entered successfully in "+elementname,true);
     }
-    protected String getPageTitle(){
+
+    protected String getPageTitle() {
         return DriverManager.getDriver().getTitle();
     }
-    protected void explicitlyWaitForElementToBeClickable(By by){
-        new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitwait())).until(ExpectedConditions.elementToBeClickable(by));
-    }
-    protected void explicitlyWaitForElementToBePresent(By by){
-        new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitwait())).until(ExpectedConditions.presenceOfElementLocated(by));
-    }
-    protected void explicitlyWaitForElementToBeVisible(By by){
-        new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.getExplicitwait())).until(ExpectedConditions.visibilityOfElementLocated(by));
-    }
+
 }

@@ -1,4 +1,4 @@
-package com.sd.com.sd.enums;
+package com.sd.enums;
 
 public enum WaitStrategy {
     CLICKABLE,

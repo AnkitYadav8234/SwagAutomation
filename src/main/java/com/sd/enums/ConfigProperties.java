@@ -1,2 +1,16 @@
-package com.sd.enums;public class ConfigEnum {
+package com.sd.enums;
+
+public enum ConfigProperties {
+    URL,
+    BROWSER,
+    OVERRIDEREPORTS,
+    PASSEDSTEPSCREENSHOT,
+    FAILEDSTEPSCREENSHOT,
+    SKIPPEDSTEPSCREENSHOT,
+    RETRYFAILEDTEST,
+    RUNMODE
+
+
+
+
 }

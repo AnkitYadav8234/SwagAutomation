@@ -1,0 +1,6 @@
+
+	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(¬±àÃşÿÿÿÿ8Ä†Åô1J$b8320457-26b9-43c8-93e8-3787bbf2445b
+‘
+java:S1192	"IDefine a constant instead of duplicating this literal "user.dir" 5 times.(Ìô·Èúÿÿÿÿ8Ëæ¼ô1J$2cc349c6-65a8-43b6-bf59-74c5dc66a29f
+´
+java:S1130#"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¬±àÃşÿÿÿÿ8Ô†Åô1J$2de0b32e-25ca-40c7-96d4-cffc3e05b012

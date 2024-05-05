@@ -18,7 +18,7 @@ public final class ExcelUtils {
     private ExcelUtils() {
     }
 
-    public static List<Map<String, String>> getTestDetails(String sheetname) throws IOException {
+    public static List<Map<String, String>> getTestDetails(String sheetname)  {
         List<Map<String, String>> list = null;
 
         try (FileInputStream fs = new FileInputStream(FrameworkConstants.getExcelpath())) {
@@ -49,7 +49,6 @@ public final class ExcelUtils {
             throw new FrameworkException("Some io exception happened  while reading excel file");
 
         }
-        System.out.println(list);
         return list;
     }
 

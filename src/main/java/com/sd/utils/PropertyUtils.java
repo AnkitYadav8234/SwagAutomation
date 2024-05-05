@@ -2,6 +2,9 @@ package com.sd.utils;
 
 import com.sd.constants.FrameworkConstants;
 import com.sd.enums.ConfigProperties;
+import com.sd.exceptions.FrameworkException;
+import com.sd.exceptions.InvalidPathForPropertyFileException;
+import com.sd.exceptions.PropertyFileUsageException;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -29,15 +32,15 @@ public final class PropertyUtils {
 
             }*/
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            throw new InvalidPathForPropertyFileException("Property file is not found");
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new FrameworkException("Something Wrong happen in property Utils");
         }
     }
 
-    public static String get(ConfigProperties key) throws Exception {
+    public static String get(ConfigProperties key)  {
         if(Objects.isNull(key) || Objects.isNull(CONFIGMAP.get(key.name().toLowerCase()))){
-            throw new Exception("Property name " + key + "is not found. Please check config properties");
+            throw new PropertyFileUsageException("Property name " + key + "is not found. Please check config properties");
         }
         return CONFIGMAP.get(key.name().toLowerCase());
     }

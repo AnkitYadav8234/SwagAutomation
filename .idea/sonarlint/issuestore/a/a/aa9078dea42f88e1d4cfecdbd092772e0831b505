@@ -1,7 +1,11 @@
 
 š
-java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.(ÜçÁÈûÿÿÿÿ8›½ãšô1J$a96fb3a3-e11e-41ac-b0d7-b29b91801b93
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.(ÜçÁÈûÿÿÿÿ8îŒÃô1J$3a1be70b-b526-4b4f-a379-a8bc5daf089e
 t
-java:S1444",Make this "public static driver" field final(ÜçÁÈûÿÿÿÿ8œ½ãšô1J$0957b23a-b057-466c-8061-68a2eb0eca40
+java:S1444",Make this "public static driver" field final(ÜçÁÈûÿÿÿÿ8îŒÃô1J$f2c4df17-acc3-41c8-bba2-823468e73894
 ]
-java:S1700"Rename field "driver"(ÜçÁÈûÿÿÿÿ8œ½ãšô1J$8b7dd717-be18-4d93-8349-53d6e91dfa66
+java:S1700"Rename field "driver"(ÜçÁÈûÿÿÿÿ8ïŒÃô1J$0d1659e3-eaf4-4793-b981-a0708eb41e43
+¿
+java:S1130"wRemove the declaration of thrown exception 'java.net.MalformedURLException', as it cannot be thrown from method's body.(Ñ¡ØÙøÿÿÿÿ8†Â©Åô1J$b2363d5d-c9e0-4122-9ebc-27435ab1aedd
+†
+java:S1128"DRemove this unused import 'org.openqa.selenium.chrome.ChromeDriver'.(†È8·Â©Åô1J$8043defe-4da9-45ad-855a-e8b94e8f7e32

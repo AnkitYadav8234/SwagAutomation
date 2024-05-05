@@ -1,2 +1,12 @@
-package com.sd.utils;public class DynamicXpathUtils {
+package com.sd.utils;
+
+public final class DynamicXpathUtils {
+    private DynamicXpathUtils(){}
+
+    public static String getXpath(String xpath, String value){
+        return  String.format(xpath,value);
+    }
+    public static String getXpath(String xpath, String value1,String value2){
+        return  String.format(xpath,value1,value2);
+    }
 }

@@ -5,19 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42a85ab1-9fc8-4ca9-8e2d-a4c5721b98e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/186d9f752fe69ab1de552aa110b427454d6c1c2a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/218812406b593cbc296e8956f0b96a94a0c8b336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fe7310c7578b7d6b512e14ab2ec44777725ca64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c0be16922bd4114d47f082133d5ed56948d3b6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa9078dea42f88e1d4cfecdbd092772e0831b505" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b63603ed5e6c0f93ef2ceea30bf372c523d3d3e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc5d5184559b491de11972cc9dc224871784be30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6e8a196d99a6d859c14dfa948f9a39932a52bd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/8/186d9f752fe69ab1de552aa110b427454d6c1c2a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/1/218812406b593cbc296e8956f0b96a94a0c8b336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3fe7310c7578b7d6b512e14ab2ec44777725ca64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c0be16922bd4114d47f082133d5ed56948d3b6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa9078dea42f88e1d4cfecdbd092772e0831b505" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b63603ed5e6c0f93ef2ceea30bf372c523d3d3e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/c/bc5d5184559b491de11972cc9dc224871784be30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f6e8a196d99a6d859c14dfa948f9a39932a52bd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/annotations/FrameworkAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/constants/FrameworkConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/driver/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/enums/AuthorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/enums/CategoriesType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/enums/ConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/enums/WaitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/exceptions/BrowserInvocationFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/exceptions/FrameworkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/exceptions/InvalidPathForExcelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/exceptions/InvalidPathForFilesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/exceptions/InvalidPathForPropertyFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/exceptions/PropertyFileUsageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/factory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/factory/ExplicitWaitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/listeners/AnnotationTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/listeners/ListenerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/listeners/MethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/listeners/RetryFailedTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/reports/ExtentLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/reports/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/reports/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/DataProviderUtills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/DecodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/DynamicXpathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sd/utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sd/test/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sd/test/HomepageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sd/test/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/executables/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/executables/geckodriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fznQvar7dvM2ROwvWuh8o0SfFD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,13 +105,73 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.docker-compose.yaml.selenium-hub: Compose Deployment.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation/testng.xml.executor": "Run",
+    "TestNG.HomepageTest.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation",
+    "onboarding.tips.debug.path": "C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\SwagAuto\SwagAutomation" />
+      <recent name="C:\Users\ADMIN\Desktop\SwagAuto\SwagAutomation\src\main\java\com\sd" />
+      <recent name="C:\Users\ADMIN\Desktop\SwagAuto\SwagAutomation\src\test\resources\excel" />
+      <recent name="C:\Users\ADMIN\Desktop\SwagAuto\SwagAutomation\src\test\resources\config" />
+      <recent name="C:\Users\ADMIN\Desktop\SwagAuto\SwagAutomation\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\SwagAuto\SwagAutomation\src\test\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sd.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation/testng.xml">
+    <configuration name="C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.selenium-hub: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="selenium-hub" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/ADMIN/Desktop/SwagAuto/SwagAutomation/testng.xml" />
+        <item itemvalue="Docker.docker-compose.yaml.selenium-hub: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +191,10 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
